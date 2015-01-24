@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="957dp"
+        android:layout_y="62dp"
+        android:text="Log"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="465dp"
+        android:text="@string/register"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/buttonMatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="170dp"
+        android:layout_y="465dp"
+        android:text="@string/match"
+        android:textSize="28sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageViewVerify"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_x="145dp"
+        android:layout_y="310dp"
+        android:src="@android:drawable/picture_frame"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/fire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="982dp"
+        android:layout_y="1dp"
+        android:text="@string/init"
+        android:textSize="36sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonLedOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="0dp"
+        android:text="@string/ledon"
+        android:textSize="28sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageViewRegister"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_x="14dp"
+        android:layout_y="310dp"
+        android:src="@android:drawable/picture_frame"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonSDKTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="765dp"
+        android:layout_y="1dp"
+        android:text="@string/sdktest"
+        android:textSize="36sp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/editLog"
+        android:layout_width="372dp"
+        android:layout_height="533dp"
+        android:layout_x="775dp"
+        android:layout_y="100dp"
+        android:inputType="none|textMultiLine"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageViewFingerprint"
+        android:layout_width="208dp"
+        android:layout_height="240dp"
+        android:layout_x="13dp"
+        android:layout_y="61dp"
+        android:src="@android:drawable/picture_frame" />
+
+    <CheckBox
+        android:id="@+id/checkBoxMatched"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="214dp"
+        android:layout_y="266dp"
+        android:text="@string/cb_matched"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_x="17dp"
+        android:layout_y="516dp"
+        android:text="@string/welcome"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_x="448dp"
+        android:layout_y="8dp"
+        android:src="@drawable/hamster4"
+        android:visibility="gone" />
+
+    <ToggleButton
+        android:id="@+id/toggleButtonAutoOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="214dp"
+        android:layout_y="92dp"
+        android:text="ToggleButton"
+        android:textOff="@string/auto_on_disabled"
+        android:textOn="@string/auto_on_enabled"
+        android:visibility="gone" />
+
+    <ToggleButton
+        android:id="@+id/toggleButtonSmartCapture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="214dp"
+        android:layout_y="143dp"
+        android:text="@string/smart_capture"
+        android:textOff="@string/smart_capture_off"
+        android:textOn="@string/smart_capture_on"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonCapture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="177dp"
+        android:layout_y="0dp"
+        android:text="@string/capture"
+        android:textSize="28sp"
+        android:visibility="gone" />
+
+</AbsoluteLayout>

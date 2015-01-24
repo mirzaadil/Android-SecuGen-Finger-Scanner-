@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="Posiscan.Secugen" >
+
+    <uses-feature
+        android:name="android.hardware.usb.host"
+         />
+
+    <uses-permission android:name="" />
+
+    <uses-sdk android:minSdkVersion="18" />
+
+    <uses-permission android:name="and" />
+
+    <application android:debuggable="true" >
+        <activity
+            android:name=".BiomatricActivity"
+            android:label="SecuGen Android Demo"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+    </application>
+
+</manifest>
